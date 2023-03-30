@@ -9,7 +9,7 @@
         <a href="#" class="nav-link">Menu Principal</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="vistas/filtrar.php" class="nav-link">Filtrar</a>
+        <a href="#" style="cursor: pointer;" class="nav-link active" onclick="CargarContenido('vistas/filtrar.php', 'content-wrapper')">Filtrar</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Simulacion</a>
