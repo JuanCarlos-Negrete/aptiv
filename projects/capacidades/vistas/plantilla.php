@@ -45,7 +45,7 @@
 
   <!-- Pantalla de Carga Slide -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="vistas/assets/dist/img/AptivLogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
   <!-- Barra de Navegacion OPCIONES -->
@@ -70,7 +70,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <img src="vistas/assets/dist/img/AptivLogo" alt="AptivLogo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="vistas/assets/dist/img/AptivLogo.png" alt="AptivLogo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-bolder" > A P T I V </span>
     </a>
 
@@ -93,11 +93,10 @@
                with font-awesome or any other icon font library -->
           
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a style="cursor: pointer;" class="nav-link" onClick="">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Widgets
-                <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
