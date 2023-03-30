@@ -38,18 +38,17 @@
 <!-- AdminLTE App -->
 <script src="vistas/assets/dist/js/adminlte.js"></script>
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="vistas/assets/dist/js/pages/dashboard.js"></script>
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+
+<body class="hold-transition sidebar-mini">
 <div class="wrapper">
 
-  <!-- Preloader -->
+  <!-- Pantalla de Carga Slide -->
   <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
-  <!-- Navbar -->
+  <!-- Barra de Navegacion -->
   <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
@@ -66,27 +65,8 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <!-- Navbar Search -->
-      <li class="nav-item">
-        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-          <i class="fas fa-search"></i>
-        </a>
-        <div class="navbar-search-block">
-          <form class="form-inline">
-            <div class="input-group input-group-sm">
-              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-              <div class="input-group-append">
-                <button class="btn btn-navbar" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </li>
+      
+    
 
       <!-- Notifications Dropdown Menu -->
      

@@ -1,0 +1,23 @@
+COMANDOS ESENCIALES GIT
+
+
+- Escoger directorio
+$ cd Desktop/ProyectoAptiv
+
+
+- Saber el estatus de los archivos modificados/agregados
+$ git status
+
+
+- Actualizar los cambios a la version reciente de web 
+$ git pull
+
+- Agregar todos los documentos modificados agregados para un commit
+$ git add*
+
+- Se crea un punto de modificacion para el repositorio 
+$ git commit -m "Prueba"
+
+
+- Se suben las modificaciones
+$ git push
