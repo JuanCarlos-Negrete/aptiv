@@ -8,6 +8,7 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Menu Principal</a>
       </li>
+      <!-- PENDIENTE DE SEGUIR *-*-*-*-*-*-* -->
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" style="cursor: pointer;" class="nav-link active" onclick="CargarContenido('vistas/filtrar.php', 'content-wrapper')">Filtrar</a>
       </li>
