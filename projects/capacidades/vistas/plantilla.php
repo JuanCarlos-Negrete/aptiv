@@ -28,7 +28,7 @@
   <link rel="shortcut icon" href="vistas/assets/dist/img/aptiv_page.ico" />
   <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="vistas/assets/plugins/daterangepicker/daterangepicker.css">
 
 
 <!-- jQuery (Diseño Principal)-->
@@ -38,7 +38,7 @@
 <!-- AdminLTE App -->
 <script src="vistas/assets/dist/js/adminlte.js"></script>
 <!-- date-range-picker -->
-<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
+<script src="vistas/assets/plugins/daterangepicker/daterangepicker.js"></script>
 
 </head>
 <body class="hold-transition sidebar-mini">
