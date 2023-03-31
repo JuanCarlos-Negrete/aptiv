@@ -26,7 +26,7 @@
   <!-- summernote -->
   <link rel="stylesheet" href="vistas/assets/plugins/summernote/summernote-bs4.min.css">
   <link rel="shortcut icon" href="vistas/assets/dist/img/aptiv_page.ico" />
-
+  <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
 
 <!-- jQuery (Diseño Principal)-->
 <script src="vistas/assets/plugins/jquery/jquery.min.js"></script>

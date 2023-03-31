@@ -45,19 +45,19 @@
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon far fa-circle text-info"></i>
-                  <p>. . .</p>
+                  <p>Example</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon far fa-circle text-warning"></i>
-                  <p>. . .</p>
+                  <p>Example</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon far fa-circle text-danger"></i>
-                  <p>. . .</p>
+                  <p>Example</p>
                 </a>
               </li>
               
@@ -67,6 +67,22 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-ellipsis-h"></i>
               <p>Asignaciones</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Otro
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Otro
+              </p>
             </a>
           </li>    
         </ul>
