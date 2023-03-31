@@ -27,6 +27,9 @@
   <link rel="stylesheet" href="vistas/assets/plugins/summernote/summernote-bs4.min.css">
   <link rel="shortcut icon" href="vistas/assets/dist/img/aptiv_page.ico" />
   <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+
 
 <!-- jQuery (Diseño Principal)-->
 <script src="vistas/assets/plugins/jquery/jquery.min.js"></script>
@@ -34,6 +37,8 @@
 <script src="vistas/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="vistas/assets/dist/js/adminlte.js"></script>
+<!-- date-range-picker -->
+<script src="../../plugins/daterangepicker/daterangepicker.js"></script>
 
 </head>
 <body class="hold-transition sidebar-mini">
