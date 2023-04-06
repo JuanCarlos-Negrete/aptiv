@@ -50,11 +50,13 @@
                       <div style="width: 40%" class="form-floating mx-1">
                          <div class="col-lg-6">
                           <div class="form-group mb-2">
-                              <label class="" for="selTurno"><i class=""></i>
-                                  <span class="big">Turno: </span><span class="text-danger">*</span>
+                              <label class="" for="selTurnos"><i class=""></i>
+                                  <span class="big">Turnos: </span><span class="text-danger">*</span>
                               </label> 
                               <select class="form-select form-select-sm" aria-label=".form-select example"
-                                    id="selTurno" required>
+                                    id="selTurnos" required>
+                                    <option></option>
+                                    <option>1</option>
                               </select>
                               <div class="invalid-feedback">Seleccione Turno</div>       
                           </div>
@@ -221,7 +223,7 @@
 
                     </div> <!-- ./ end card-tools -->
                 </div> <!-- ./ end card-header -->
-                
+
                <!-- /.input group -->
                 </div>
               </div>
