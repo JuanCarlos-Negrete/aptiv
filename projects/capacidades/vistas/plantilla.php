@@ -29,7 +29,20 @@
   <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="vistas/assets/plugins/daterangepicker/daterangepicker.css">
-
+<!-- Estilos personzalidos -->
+  <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="vistas/assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <link rel="stylesheet" href="vistas/assets/plugins/toastr/toastr.css">
+  <link rel="stylesheet" href="vistas/assets/plugins/jquery-ui/css/jquery-ui.css">
+  <!-- Bootstrap 5 -->
+  <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">-->
+  <!-- ============================================================
+  =ESTILOS PARA USO DE DATATABLES JS
+  ===============================================================-->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.0/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css">
 
 <!-- jQuery (Diseño Principal)-->
 <script src="vistas/assets/plugins/jquery/jquery.min.js"></script>
@@ -40,6 +53,25 @@
 <!-- date-range-picker -->
 <script src="vistas/assets/plugins/daterangepicker/daterangepicker.js"></script>
 
+
+ <!-- ============================================================
+    =LIBRERIAS PARA USO DE DATATABLES JS
+    ===============================================================-->
+    <script src="https://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script>        
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="vistas/assets/plugins/sweetalert2/sweetalert2.min.js"></script>
+    <!-- Toast-->
+    <script src="vistas/assets/plugins/toastr/toastr.min.js"></script>
+    <script src="vistas/assets/plugins/jquery-ui/js/jquery-ui.js"></script>
+    <!-- ============================================================
+    =LIBRERIAS PARA EXPORTAR A ARCHIVOS
+    ===============================================================-->
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
 </head>
 <body class="hold-transition sidebar-mini">
 
