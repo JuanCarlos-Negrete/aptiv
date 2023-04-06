@@ -52,7 +52,8 @@
 <script src="vistas/assets/dist/js/adminlte.js"></script>
 <!-- date-range-picker -->
 <script src="vistas/assets/plugins/daterangepicker/daterangepicker.js"></script>
-
+<!-- Select2 -->
+<script src="../../plugins/select2/js/select2.full.min.js"></script>
 
  <!-- ============================================================
     =LIBRERIAS PARA USO DE DATATABLES JS
@@ -72,6 +73,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
+
+
+
 </head>
 <body class="hold-transition sidebar-mini">
 

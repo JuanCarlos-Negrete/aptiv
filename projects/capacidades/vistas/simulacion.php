@@ -44,215 +44,188 @@
 
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-lg-12 d-lg-flex">
-
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptCable"
-                            class="form-control"
-                            data-index="2">
-                        <label for="iptCable">Buscar Cable</label>
-                      </div>
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptCable"
-                            class="form-control"
-                            data-index="2">
-                        <label for="iptCable">Buscar Cable</label>
-                      </div>
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptCable"
-                            class="form-control"
-                            data-index="2">
-                        <label for="iptCable">Buscar Cable</label>
-                      </div>
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptDescripccion"
-                            class="form-control"
-                            data-index="3">
-                            <label for="iptDescripccion">Buscar por Descripccion</label>
-                      </div>
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptProveedor"
-                            class="form-control"
-                            data-index="4">
-                            <label for="iptProveedor">Buscar por Proveedor</label>
-                      </div>
-                      <div style="width: 25%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptFecha"
-                            class="form-control"
-                            data-index="5">
-                            <label for="iptFecha">Buscar por Fecha</label>
-                      </div>
+                    <div class="col-lg-10 d-lg-flex">
 
 
-
-                      <!--para hacer ENTER en los TEXTBOX hacia abajo -->
-                       <div class="col-lg-4">
-
-                      <div class="form-group mb-2">
-                          <label class="" for="ipDescreg"><i class=""></i>
-                              <span class="small">Descripccion:</span><span class="text-danger">*</span>
-                          </label> 
-                          <input type="text" class="form-control form-control-sm" id="ipDescreg"
-                            name="ipDescreg" placeholder="Descripccion del Cable" required>
-                          <div class="invalid-feedback">Ingrese la descripccion del cable</div>
-                          <!--<span id="validate_desc" class="text-danger small fst-italic"
-                              style="display:none">Debe ingresar la Descripccion del Cable</span>-->
-
-                      </div>
-                      <div style="width: 100%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptFecha"
-                            class="form-control"
-                            data-index="5">
-                            <label for="iptFecha">Buscar por Fecha</label>
-                      </div>
-                      <div style="width: 100%" class="form-floating mx-1">
-                        <input 
-                            type="text" 
-                            id="iptFecha"
-                            class="form-control"
-                            data-index="5">
-                            <label for="iptFecha">Buscar por Fecha</label>
-                      </div>
-                      <div class="col-lg-6">
+                      <div style="width: 40%" class="form-floating mx-1">
+                         <div class="col-lg-6">
                           <div class="form-group mb-2">
-                              <label class="" for="selFamiliaReg"><i class=""></i>
-                                  <span class="small">Familia:</span><span class="text-danger">*</span>
+                              <label class="" for="selTurno"><i class=""></i>
+                                  <span class="big">Turno: </span><span class="text-danger">*</span>
                               </label> 
                               <select class="form-select form-select-sm" aria-label=".form-select example"
-                                    id="selFamiliaReg" required>
+                                    id="selTurno" required>
                               </select>
-                              <div class="invalid-feedback">Seleccione la Familia</div>
+                              <div class="invalid-feedback">Seleccione Turno</div>       
                           </div>
-                        </div>
 
 
-                        <div class="col-lg-12">
+                               <div class="form-group mb-2">
+                                   <label class="" for="intHoras"><i class=""></i>
+                                   <span class="big">Horas:</span><span class="text-danger">*</span>
+                                   </label> 
+                                    <input type="text" class="form-control form-control-sm" id="intHoras"
+                                    name="intHoras" placeholder="Introduzca horas" required>
+                                    <div class="invalid-feedback">Llenar correctamente</div>
+                                </div>
+                          </div>
+                      </div>
+                      <div style="width: 40%" class="form-floating mx-1">
+                         <div class="col-lg-10">
                           <div class="form-group mb-2">
-                              <label class="" for="selFamiliaReg"><i class=""></i>
-                                  <span class="small">Familia:</span><span class="text-danger">*</span>
+                              <label class="" for="selArea"><i class=""></i>
+                                  <span class="big">Area: </span><span class="text-danger">*</span>
                               </label> 
                               <select class="form-select form-select-sm" aria-label=".form-select example"
-                                    id="selFamiliaReg" required>
+                                    id="selArea" required>
                               </select>
-                              <div class="invalid-feedback">Seleccione la Familia</div>
+                              <div class="invalid-feedback">Seleccione Area</div>       
+                          </div>
+
+                               <div class="form-group mb-2">
+                                  <label class="" for="selLinea"><i class=""></i>
+                                  <span class="big">Linea: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selLinea" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Linea</div>       
+                          </div>
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selLado"><i class=""></i>
+                                  <span class="big">Lado: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selLado" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Lado</div>       
+                          </div>
+
+                          </div>
+                      </div>
+                       <div style="width: 40%" class="form-floating mx-1">
+                         <div class="col-lg-10">
+
+
+                          <div class="form-group mb-2">
+                              <label class="" for="selNumP"><i class=""></i>
+                                  <span class="big">Numero de Parte: </span><span class="text-danger">*</span>
+                              </label> 
+                              <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selNumP" required>
+                              </select>
+                              <div class="invalid-feedback">Seleccione Numero de Parte</div>       
+                          </div>
+
+                               <div class="form-group mb-2">
+                                  <label class="" for="selCable"><i class=""></i>
+                                  <span class="big">Cable: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selCable" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Cable</div>       
+                          </div>
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selTipoC"><i class=""></i>
+                                  <span class="big">Tipo Cable: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selTipoC" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Tipo</div>       
+                          </div>
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selCodigo"><i class=""></i>
+                                  <span class="big">Codigo: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selCodigo" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Codigo</div>       
+                          </div>
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selConec"><i class=""></i>
+                                  <span class="big">Conector: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selConec" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Conector</div>       
+                          </div>
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selLeadsqty"><i class=""></i>
+                                  <span class="big">Cantidad de Leads: </span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selLeadsqty" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Cantidad</div>       
+                          </div>
+
+
+                        </div>
+                      </div>
+                      <div style="width: 40%" class="form-floating mx-1">
+                         <div class="col-lg-10">
+
+                          <div class="form-group mb-2">
+                                  <label class="" for="selPrograma"><i class=""></i>
+                                  <span class="big">Programa:</span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selPrograma" required>
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione Programa</div>       
+                          </div>
+                          <div class="form-group">
+                             <label>Fecha Inicial:</label>
+                             <input type="date" class="datepicker btn-block"  name="from" id="dateFeInicial" Placeholder="Selecciona Fecha" value="#">
+                             <label>Fecha Final:</label>
+                             <input type="date" class="datepicker btn-block"  name="from" id="dateFeFinal" Placeholder="Selecciona Fecha" value="#">
+                          </div>
+                          <div class="form-group mb-2">
+                                  <label class="" for="selVisualizacion"><i class=""></i>
+                                  <span class="big">Visualizacion:</span><span class="text-danger">*</span>
+                                  </label> 
+                                  <select class="form-select form-select-sm" aria-label=".form-select example"
+                                    id="selVisualizacion" required>
+
+                                  </select>
+                                  <div class="invalid-feedback">Seleccione fecha a visualizar</div>       
                           </div>
                         </div>
+                  <!-- /.input group -->
+                      </div>
+                     </div>
+                 </div>
+        </div>
 
-
-                    </div>
-
-                  </div>
                     </div>
                   </div>
                 </div> <!-- ./ end card-body -->
-              </div>
-            </div>  
-        </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <table id="tbl_cables" class="table table-striped w-100 shadow">
-                <thead class="bg-info"> 
-                  <tr>
-                    <th></th>
-                    <th>ID</th>
-                    <th>CABLE</th>
-                    <th>DESCRIPCCION</th>
-                    <th>PROVEEDOR</th>
-                    <th>ALTA</th>
-                    <th class="text-center">OPCIONES</th>
-                  </tr>
-                </thead>  
-                  <tbody>
-                  </tbody>
-            </table>
-          </div>
-        </div>
-      </div><!-- /.container-fluid -->
-    </div>
-<!-- /.content -->
-<div class="modal fade" id="mdlSimulacion" role="dialog">
-  
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
 
-        <div class="modal-header bg-gray py-1 align-items-center" >
-            <h5 class="modal-title">Agregar Cable</h5>
-            <button type="button" class="btn btn-outline-primary text-white border-0 fs-5" data-dismiss="modal" id="btnCerrarModal">
-                    <i class="far fa-times-circle"></i>
-            </button>
-        </div>
-        
-        <div class="modal-body">
-            <form class="needs-validation" novalidate>
-                <div class="row">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="card card-info">
 
-                      <div>
-                          <input type="text" id="idCable"
-                            name="idCable">
-                      </div>
-                    
-                    <div class="col-lg-6">
-                      <div class="form-group mb-2">
-                          <label class="" for="ipCablereg"><i class=""></i>
-                              <span class="small">Nombre del Cable</span><span class="text-danger">*</span>
-                          </label> 
-                          <input type="text" class="form-control form-control-sm" id="ipCablereg"
-                            name="ipCablereg" placeholder="Nombre del Cable" required>
-                            <div class="invalid-feedback">Ingrese el nombre del cable</div>
-                          <!--<span id="validate_cable" class="text-danger small fst-italic"
-                              style="display:none">Debe ingresar el nombre del Cable</span>fas fa-barcode fs-6-->
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="form-group mb-2">
-                          <label class="" for="ipDescreg"><i class=""></i>
-                              <span class="small">Descripccion:</span><span class="text-danger">*</span>
-                          </label> 
-                          <input type="text" class="form-control form-control-sm" id="ipDescreg"
-                            name="ipDescreg" placeholder="Descripccion del Cable" required>
-                          <div class="invalid-feedback">Ingrese la descripccion del cable</div>
-                          <!--<span id="validate_desc" class="text-danger small fst-italic"
-                              style="display:none">Debe ingresar la Descripccion del Cable</span>-->
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <div class="form-group mb-2">
-                          <label class="" for="ipProveedorreg"><i class=""></i>
-                              <span class="small">Proveedor:</span><span class="text-danger">*</span>
-                          </label> 
-                          <input type="text" class="form-control form-control-sm" id="ipProveedorreg"
-                            name="ipProveedorreg" placeholder="Nombre del Proveedor" required>
-                          <div class="invalid-feedback">Ingrese el proveedor del cable</div>
-                          <!--<span id="validate_prov" class="text-danger small fst-italic"
-                              style="display:none">Debe ingresar el Proveedor</span>    onclick="formSubmitClick()"-->
-                      </div>
-                    </div>
+                <div class="card-header">
+                  <h2 class="card-title"><b>Resultados</b></h2>
+                    <div class="card-tools">
 
-                    <button type="button" class="btn btn-danger mt-3 mx-2" style="width:170px;"
-                      data-dismiss="modal" id="btnCancelarRegistro">Cancelar</button>
-
-                    <button type="button" style="width:170px;" class="btn btn-primary mt-3 mx-2"
-                      id="btnGuardarProducto">Guardar </button>
+                    </div> <!-- ./ end card-tools -->
+                </div> <!-- ./ end card-header -->
+                
+               <!-- /.input group -->
                 </div>
-            </form>
-        </div>
-    </div>    
-  </div>
-</div>
-
-
+              </div>
+            </div>
+      </div>
+    </div>
+           
