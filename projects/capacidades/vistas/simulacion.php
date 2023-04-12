@@ -42,7 +42,7 @@
                 </div> <!-- ./ end card-header -->
 
 
-                <div class="card-body">
+                <div class="card-body" id="mdlGestionarParametros">
                   <div class="row">
                     <div class="col-lg-10 d-lg-flex">
 
@@ -50,14 +50,12 @@
                       <div style="width: 40%" class="form-floating mx-1">
                          <div class="col-lg-6">
                           <div class="form-group mb-2">
-                              <label class="" for="selTurnos"><i class=""></i>
+
+                              <label class="" for="intTurnos"><i class=""></i>
                                   <span class="big">Turnos: </span><span class="text-danger">*</span>
                               </label> 
-                              <select class="form-select form-select-sm" aria-label=".form-select example"
-                                    id="selTurnos" required>
-                                    <option></option>
-                                    <option>1</option>
-                              </select>
+                               <input type="text" class="form-control form-control-sm" id="ipValorreg"
+                                name="intTurnos" placeholder="Seleccione Turno" required>
                               <div class="invalid-feedback">Seleccione Turno</div>       
                           </div>
 
@@ -69,9 +67,12 @@
                                     <input type="text" class="form-control form-control-sm" id="intHoras"
                                     name="intHoras" placeholder="Introduzca horas" required>
                                     <div class="invalid-feedback">Llenar correctamente</div>
-                                </div>
+                               </div>
                           </div>
                       </div>
+
+
+
                       <div style="width: 40%" class="form-floating mx-1">
                          <div class="col-lg-10">
                           <div class="form-group mb-2">
@@ -206,13 +207,11 @@
                       </div>
                      </div>
                  </div>
-        </div>
+               </div>
 
                     </div>
                   </div>
                 </div> <!-- ./ end card-body -->
-
-
           <div class="row">
             <div class="col-lg-12">
               <div class="card card-info">
@@ -225,9 +224,47 @@
                 </div> <!-- ./ end card-header -->
 
                <!-- /.input group -->
-                </div>
               </div>
             </div>
+          </div>
       </div>
     </div>
-           
+
+<script>
+
+  var accion;
+  var table;
+  
+  var Toast = Swal.mixin({
+      toast: true,
+      position: 'top',
+      showConfirmButton: false,
+      timer: 2000
+  });
+
+  var dato = new FormData();
+
+  dato.append("areas",     $("#selArea option:selected").text());
+
+
+  $.ajax({
+      url: "ajax/areas.ajax.php",
+      cache: false,
+      contentType: false,
+      processData: false,
+      dataType: 'json',
+      success: function(respuesta){
+
+        var options = '<option selected value="0">Selecciona un tipo de Tolerancia</option>';
+
+        for(let index = 0; index < respuesta.length; index++){
+          options = options + '<option value=' + respuesta[index][0] + '>' + respuesta[index][1] + '</option>';
+        }
+        
+          $("#selArea").html(options);
+      }
+  });
+ 
+
+
+</script>

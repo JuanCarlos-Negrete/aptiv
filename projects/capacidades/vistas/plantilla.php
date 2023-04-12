@@ -15,28 +15,26 @@
   <link rel="stylesheet" href="vistas/assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
   <link rel="stylesheet" href="vistas/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- JQVMap -->
-  <link rel="stylesheet" href="vistas/assets/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="vistas/assets/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="vistas/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="vistas/assets/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="vistas/assets/plugins/summernote/summernote-bs4.min.css">
   <link rel="shortcut icon" href="vistas/assets/dist/img/aptiv_page.ico" />
   <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="vistas/assets/plugins/daterangepicker/daterangepicker.css">
-<!-- Estilos personzalidos -->
+ 
+
+
+<!-- CUSTOM STYLES -->
   <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
   <!-- SweetAlert2 -->
   <link rel="stylesheet" href="vistas/assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
   <link rel="stylesheet" href="vistas/assets/plugins/toastr/toastr.css">
   <link rel="stylesheet" href="vistas/assets/plugins/jquery-ui/css/jquery-ui.css">
-  <!-- Bootstrap 5 -->
-  <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">-->
+
+
+
   <!-- ============================================================
   =ESTILOS PARA USO DE DATATABLES JS
   ===============================================================-->
@@ -44,16 +42,16 @@
   <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css">
 
+
+
 <!-- jQuery (Diseño Principal)-->
 <script src="vistas/assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="vistas/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="vistas/assets/dist/js/adminlte.js"></script>
-<!-- date-range-picker -->
-<script src="vistas/assets/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Select2 -->
-<script src="../../plugins/select2/js/select2.full.min.js"></script>
+<script src="vistas/assets/plugins/select2/js/select2.full.min.js"></script>
 
  <!-- ============================================================
     =LIBRERIAS PARA USO DE DATATABLES JS
@@ -73,7 +71,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
     <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.print.min.js"></script>
-
 
 
 </head>
