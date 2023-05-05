@@ -150,9 +150,9 @@
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
             this.lblTitulo.Location = new System.Drawing.Point(477, 9);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(111, 33);
+            this.lblTitulo.Size = new System.Drawing.Size(129, 33);
             this.lblTitulo.TabIndex = 3;
-            this.lblTitulo.Text = "S C R A P";
+            this.lblTitulo.Text = "S C R A P x";
             // 
             // frmMain
             // 
